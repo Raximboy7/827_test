@@ -53,4 +53,10 @@ son3 = int(input('3-son'))
 print(son1 + son2 + son3 )
 
 
-print('Izzatilla akam')
+name = input('ismingiz nima?')
+print(f'assalomu alekom {name}')
+son1 = int(input('1-son'))
+son2 = int(input('2-son'))
+son3 = int(input('3-son'))
+son4 = int(input('4-son'))
+print(son1 + son2 + son3 + son4 )
