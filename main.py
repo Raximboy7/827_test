@@ -62,5 +62,12 @@ son4 = int(input('4-son'))
 print(son1 + son2 + son3 + son4 )
 
 
-print('hello world')
-print('sssssssssssssssssssssssssssssssssssssssssss')
+abc ="qwertyuiopasdfghjklzxcvbnm"
+soz = input('soz kriting:')
+for x in abc:
+    sana = 0
+    for i in soz:
+      if x == i:
+         sana +=1
+    if sana>0:
+        print(f"{x} --> {sana}")
